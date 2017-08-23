@@ -1,5 +1,6 @@
-Lua language support in Atom
+Candran language support in Atom
 ======
+##### This package is an adaptation of [FireZenk's language-lua](https://github.com/FireZenk/language-lua) with [Candran](https://github.com/Reuh/candran) syntax.
 
 Add syntax highlighting and snippets to Lua files in Atom.
 

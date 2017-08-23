@@ -1,10 +1,10 @@
 {
-  "name": "language-lua",
+  "name": "language-candran",
   "version": "0.9.11",
   "private": false,
-  "author": "FireZenk <firezenk@gmail.com>",
-  "description": "Add syntax highlighting and snippets to Lua files in Atom",
-  "repository": "https://github.com/FireZenk/language-lua",
+  "author": "FireZenk <firezenk@gmail.com>, adapted for Candran by Reuh",
+  "description": "Add syntax highlighting and snippets to Candran files in Atom",
+  "repository": "https://github.com/Reuh/language-candran",
   "license": "MIT",
   "engines": {
     "atom": ">=0.50.0"

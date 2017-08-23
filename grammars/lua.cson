@@ -1,13 +1,10 @@
-'comment': 'Lua Syntax: version 0.8'
+'comment': 'Candran Syntax: version 0.8'
 'fileTypes': [
-  'lua'
-  'nse'
-  'rockspec'
-  'luacheckrc'
-  'lakefile'
+  'can'
+  'candran'
 ]
-'firstLineMatch': '\\A#!.*?\\blua\\b'
-'name': 'Lua'
+'firstLineMatch': '\\A#!.*?\\bcan\\b'
+'name': 'Candran'
 'patterns': [
   {
     'captures':
@@ -24,6 +21,17 @@
       '6':
         'name': 'punctuation.definition.parameters.end.lua'
     'match': '\\b(function)(?:\\s+([a-zA-Z_.:]+[.:])?([a-zA-Z_]\\w*)\\s*)?(\\()([^)]*)(\\))'
+    'name': 'meta.function.lua'
+  }
+  {
+    'captures':
+      '1':
+        'name': 'punctuation.definition.parameters.begin.lua'
+      '2':
+        'name': 'variable.parameter.function.lua'
+      '3':
+        'name': 'punctuation.definition.parameters.end.lua'
+    'match': '(?<!function|\\w|\\s)\\s*(\\()((?:\\s*[\\w]+\\s*(?:=\\s*[^,]+?)?,?)*)(\\))'
     'name': 'meta.function.lua'
   }
   {
@@ -133,7 +141,7 @@
     ]
   }
   {
-    'match': '\\b(and|or|not|break|do|else|for|if|elseif|return|then|repeat|while|until|end|function|local|in|goto)\\b'
+    'match': '\\b(and|or|not|break|do|else|for|if|elseif|return|then|repeat|while|until|end|function|local|in|goto|continue|let)\\b'
     'name': 'keyword.control.lua'
   }
   {
