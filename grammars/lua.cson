@@ -31,7 +31,7 @@
         'name': 'variable.parameter.function.lua'
       '3':
         'name': 'punctuation.definition.parameters.end.lua'
-    'match': '(?<!function|\\w|\\s)\\s*(\\()((?:\\s*[\\w]+\\s*(?:=\\s*[^,]+?)?,?)*)(\\))'
+    'match': '(?<!function|\\w|\\s)\\s*(\\()((?:(?:\\s*[\\w]+\\s*(?:=\\s*[^,]+?)?,)*(?:\\s*[\\w]+\\s*(?:=\\s*[^,]+?)?))?)(\\))'
     'name': 'meta.function.lua'
   }
   {
@@ -141,7 +141,7 @@
     ]
   }
   {
-    'match': '\\b(and|or|not|break|do|else|for|if|elseif|return|then|repeat|while|until|end|function|local|in|goto|continue|let)\\b'
+    'match': '\\b(and|or|not|break|do|else|for|if|elseif|return|then|repeat|while|until|end|function|local|in|goto|continue|let|push)\\b'
     'name': 'keyword.control.lua'
   }
   {
