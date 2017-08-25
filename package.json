@@ -1,6 +1,6 @@
 {
   "name": "language-candran",
-  "version": "0.9.12",
+  "version": "0.9.13",
   "private": false,
   "author": "FireZenk <firezenk@gmail.com>, adapted for Candran by Reuh",
   "description": "Add syntax highlighting and snippets to Candran files in Atom",
